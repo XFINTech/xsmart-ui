@@ -1,5 +1,6 @@
 {
   "name": "@xsmart-ui/icons",
+  "private": true,
   "version": "1.0.0",
   "description": "xsmart-ui icons",
   "main": "index.js",
