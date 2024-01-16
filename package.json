@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm --dir ./packages/site dev",
+    "dev": "pnpm i && pnpm --dir ./packages/site dev",
     "build:site": "pnpm --dir ./packages/site build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
