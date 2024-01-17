@@ -1,12 +1,11 @@
 <script setup>
-import Index from './components/index.vue'
-import homeen  from 'xsmart-ui/docs/markdown/home.en-US.md'
+import Index from './components/index.vue';
+import homeen from 'xsmart-ui/docs/markdown/home.en-US.md';
 </script>
 
 <template>
-  <Index/>
-  <homeen/>
+  <Index />
+  <homeen />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

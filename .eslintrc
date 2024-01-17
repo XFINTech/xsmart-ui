@@ -8,7 +8,7 @@
     "eslint:recommended",
     "plugin:vue/vue3-recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier"
+    "plugin:prettier/recommended"
   ],
   "parserOptions": {
     "parser": "@typescript-eslint/parser",
@@ -19,8 +19,9 @@
   "rules": {
     "no-console": "off",
     "no-debugger": "off",
-    "no-unused-vars": "off"
-  },
+    "no-unused-vars": "off",
+    "vue/multi-word-component-names": "off"
+    },
   "overrides": [
     {
       "files": ["*.vue"],
