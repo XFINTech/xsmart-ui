@@ -6,7 +6,7 @@ UI Components for uSMART & FINSMART based on Vue.js 3
 - [ ] 组件库搭建
 - [ ] 主题切换
 - [ ] 多语言
-- [ ] 模拟器
+- [ ] 移动端模拟器
 - [ ] 组件文档
 - [ ] 组件示例
 - [ ] 组件测试
