@@ -2,7 +2,8 @@
 UI Components for uSMART & FINSMART & FINTECH based on Vue.js 3
 
 ## TODO
-- [x] 网站搭建
+- [x] 项目初始化、配置、格式化
+- [ ] 网站搭建ing
 - [ ] 组件库搭建
 - [ ] 主题切换
 - [ ] 多语言
