@@ -3,7 +3,7 @@ import Header from './Header.vue';
 </script>
 
 <template>
-  <div class="xsmart-ui-doc">
+  <div id="doc-root">
     <Header msg="XSmart UI" />
   </div>
 </template>
