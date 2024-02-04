@@ -5,6 +5,7 @@ import homecn from 'xsmart-ui/docs/guide/home.zh-CN.md';
 </script>
 
 <template>
+  <img alt="Vue logo" src="/logo.svg" width="500" height="500" />
   <Index />
   <homeen />
   <homecn />

@@ -1,5 +1,5 @@
 # XSmart UI
-UI Components for uSMART & FINSMART & FINTECH based on Vue.js 3
+UI Components for FINTECH based on Vue.js 3
 
 ## TODO
 - [x] 项目初始化、配置、格式化
