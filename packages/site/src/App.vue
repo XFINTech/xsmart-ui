@@ -7,6 +7,7 @@ const route = useRoute();
 const lang = computed(() => {
   return route.meta.lang || 'en';
 });
+document.documentElement.classList.add('xsmart-doc-theme-light');
 </script>
 
 <template>

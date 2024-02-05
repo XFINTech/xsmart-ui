@@ -1,6 +1,6 @@
 export default {
   title: 'XSmart UI',
-  description: 'A Vue.js 3.0 UI Toolkit for Web',
+  description: 'UI Components for fintech based on Vue.js 3',
   locales: [
     ['en-US', '🇺🇸 English'],
     ['zh-CN', '🇨🇳 简体中文'],
@@ -8,7 +8,7 @@ export default {
   nav: [
     { text: 'Guide', link: '/guide/' },
     { text: 'Components', link: '/components/' },
-    { text: 'GitHub', link: 'http' },
+    { text: 'GitHub', link: 'https://github.com/uSMARTFE/xsmart-ui' },
   ],
   menus: {
     '/guide/': [
@@ -33,5 +33,10 @@ export default {
         ],
       },
     ],
+  },
+  site: {
+    defaultLocale: 'en-US',
+    darkModeClass: 'xsmart-doc-theme-dark',
+    lightModeClass: 'xsmart-doc-theme-light',
   },
 };
