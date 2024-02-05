@@ -2,9 +2,10 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 
 const routes = [
   {
-    path: '/',
+    path: '/guide/',
+    alias: '/',
     name: 'Home',
-    component: () => import('xsmart-ui/docs/guide/home.zh-CN.md'),
+    component: () => import('xsmart-ui/docs/guide/quickstart.zh-CN.md'),
   },
 ];
 
