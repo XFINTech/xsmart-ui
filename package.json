@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "pnpm i && pnpm --dir ./packages/site dev",
-    "build:site": "pnpm --dir ./packages/site build",
+    "build:docs": "pnpm --dir ./packages/site build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint 'packages/**/*.{js,vue,ts}'",
-    "format": "prettier --write 'packages/**/*.{js,vue,ts}'"
+    "lint": "prettier --write 'packages/**/*.{js,vue,ts}'",
+    "clean": "rm -rf node_modules && rm -rf packages/**/node_modules"
   },
   "keywords": [],
   "author": "aaronlamz",

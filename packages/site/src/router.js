@@ -1,5 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 
+// 目前先写死，后续可以通过自动扫描的方式获取
 const routes = [
   {
     path: '/guide/',
