@@ -1,13 +1,18 @@
 <script setup>
-import Index from './components/index.vue';
-import homeen from 'xsmart-ui/docs/guide/home.en-US.md';
-import homecn from 'xsmart-ui/docs/guide/home.zh-CN.md';
+import XSmartDoc from './components/index.vue';
+import { computed } from 'vue';
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
+const lang = computed(() => {
+  return route.meta.lang || 'en';
+});
 </script>
 
 <template>
-  <Index />
-  <homeen />
-  <homecn />
+  <XSmartDoc :lang="lang">
+    <router-view />
+  </XSmartDoc>
 </template>
 
 <style scoped></style>

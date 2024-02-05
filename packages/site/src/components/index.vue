@@ -3,13 +3,12 @@ import Header from './Header.vue';
 </script>
 
 <template>
-  <div class="xsmart-ui-doc">
+  <div class="xsmart-doc">
     <Header msg="XSmart UI" />
+    <div class="xsmart-doc-container">
+      <slot />
+    </div>
   </div>
 </template>
 
-<style scoped>
-.read-the-docs {
-  color: #888;
-}
-</style>
+<style scoped></style>
