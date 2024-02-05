@@ -1,6 +1,6 @@
 # XSmart UI
 
-UI Components for FINTech based on Vue.js 3
+UI Components for fintech based on Vue.js 3
 
 ## TODO
 
