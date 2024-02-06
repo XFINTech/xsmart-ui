@@ -35,6 +35,8 @@
   justify-content: space-between;
   height: 60px;
   padding: 0 20px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .xsmart-doc-header-flex {
   display: flex;
@@ -42,13 +44,22 @@
 }
 
 .xsmart-doc-header-nav {
-  padding-left: 20px;
+  padding-left: 40px;
   display: flex;
   align-items: center;
   .xsmart-doc__link {
     color: var(--xsmart-doc-text-color);
-    margin-right: 20px;
+    margin-right: 40px;
     font-weight: bold;
+    &:hover {
+      color: var(--xsmart-doc-link-color);
+    }
+    &:focus {
+      color: var(--xsmart-doc-link-color);
+    }
+    &.active {
+      color: var(--xsmart-doc-link-color);
+    }
   }
 }
 </style>
