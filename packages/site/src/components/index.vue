@@ -1,7 +1,5 @@
 <script setup>
 import Header from './Header.vue';
-import { defineProps } from 'vue';
-
 defineProps({
   darkModeClass: String,
 });
