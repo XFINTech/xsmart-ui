@@ -48,6 +48,7 @@
   .xsmart-doc__link {
     color: var(--xsmart-doc-text-color);
     margin-right: 20px;
+    font-weight: bold;
   }
 }
 </style>
