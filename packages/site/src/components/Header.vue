@@ -33,8 +33,10 @@
             ></path>
           </svg>
           <div class="doc-dropdown__content">
-            <div class="sublink">🇨🇳 中文</div>
-            <div class="sublink">🇺🇸 English</div>
+            <div class="doc-dropdown__content-body">
+              <div class="sublink">🇨🇳 中文</div>
+              <div class="sublink">🇺🇸 English</div>
+            </div>
           </div>
         </div>
       </div>
@@ -90,15 +92,28 @@
     opacity: 1;
     list-style: none;
     position: absolute;
-    min-width: 120px;
-    padding: 10px;
-    background-color: rgb(219 224 224 / 35%);
+    min-width: 150px;
+    background: transparent;
     top: 100%;
     right: 0;
     border-radius: 10px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     transform: translateY(0px);
     transition: all 0.3s;
+    border: 1px solid rgb(0 0 0 / 4%);
+  }
+  .doc-dropdown__content-body {
+    padding: 10px;
+    & .sublink {
+      margin-bottom: 2px;
+      padding: 5px;
+      cursor: pointer;
+      border-radius: 5px;
+      &:hover {
+        background-color: var(--xsmart-doc-blue-1);
+        color: var(--xsmart-doc-white);
+      }
+    }
   }
   .doc-dropdown__item {
     position: relative;
