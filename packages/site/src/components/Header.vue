@@ -130,11 +130,11 @@
     list-style: none;
     position: absolute;
     min-width: 150px;
-    background: transparent;
     top: 100%;
     right: 0;
     border-radius: 10px;
-    backdrop-filter: blur(20px);
+    background-color: rgba(233, 233, 233, 0.3);
+    backdrop-filter: blur(10px);
     transform: translateY(0px);
     transition: all 0.3s;
     border: 1px solid rgb(0 0 0 / 4%);
