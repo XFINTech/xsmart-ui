@@ -29,6 +29,7 @@ import Menu from './Menu.vue';
   padding-left: calc(var(--xsmart-doc-menu-width) + 40px);
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-right: 20px;
 }
 .xsmart-doc-content__inner {
   background-color: var(--xsmart-doc-white);
