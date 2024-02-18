@@ -80,7 +80,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 1360px;
+  max-width: var(--xsmart-doc-layout-max-width);
   margin: 0 auto;
 }
 

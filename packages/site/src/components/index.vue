@@ -1,9 +1,6 @@
 <script setup>
 import Header from './Header.vue';
 import Menu from './Menu.vue';
-defineProps({
-  darkModeClass: String,
-});
 </script>
 
 <template>
@@ -22,5 +19,8 @@ defineProps({
 .xsmart-doc-container {
   position: relative;
   top: var(--xsmart-doc-header-height);
+  max-width: var(--xsmart-doc-layout-max-width);
+  width: 100%;
+  margin: 0 auto;
 }
 </style>

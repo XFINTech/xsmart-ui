@@ -5,22 +5,35 @@ defineProps({
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-
-  <div class="card">
-    <p>
-      Edit
-      <code>components/Nav.vue</code> to test HMR
-    </p>
+  <div class="xsmart-doc-menu">
+    <div class="xsmart-doc-menu-container">
+      <div class="xsmart-doc-menu-logo">
+        <span>Logo</span>
+      </div>
+      <div class="xsmart-doc-menu-nav">
+        <div class="xsmart-doc-menu-nav-item">
+          <router-link
+            to="/en"
+            class="xsmart-doc__link"
+            :class="{ active: $route.path === '/en' }"
+            >Home</router-link
+          >
+        </div>
+      </div>
+    </div>
   </div>
-
-  <p>
-    Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
-  </p>
-  <p>Install</p>
 </template>
 
-<style scoped lang="less"></style>
+<style scoped lang="less">
+.xsmart-doc-menu {
+  position: fixed;
+  top: var(--xsmart-doc-header-height);
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: var(--xsmart-doc-menu-bg-color);
+  z-index: var(--xsmart-doc-menu-zIndex);
+}
+</style>
