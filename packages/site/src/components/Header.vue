@@ -66,6 +66,7 @@
   padding: 0 20px;
   backdrop-filter: blur(10px);
   background-color: rgba(233, 233, 233, 0.5);
+  z-index: var(--xsmart-doc-header-zIndex);
 }
 
 .xsmart-doc-header-logo {
