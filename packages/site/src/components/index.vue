@@ -23,4 +23,7 @@ import Menu from './Menu.vue';
   width: 100%;
   margin: 0 auto;
 }
+.xsmart-doc-content {
+  padding: 20px 20px 20px calc(var(--xsmart-doc-menu-width) + 40px);
+}
 </style>

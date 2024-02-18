@@ -15,21 +15,25 @@ export default {
       {
         title: 'Guide',
         children: [
-          '/guide/',
-          '/guide/getting-started',
-          '/guide/installation',
-          '/guide/usage',
+          {
+            path: '/home/',
+            title: 'Introduction',
+          },
+          {
+            path:'/quickstart/',
+            title: 'Quickstart',
+          }
         ],
       },
     ],
     '/components/': [
       {
-        title: 'Components',
+        title: 'Basic Components',
         children: [
-          '/components/',
-          '/components/button',
-          '/components/input',
-          '/components/layout',
+          {
+            path: '/components/button/',
+            title: 'Button',
+          },
         ],
       },
     ],
