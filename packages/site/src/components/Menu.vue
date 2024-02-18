@@ -1,21 +1,17 @@
 <script setup>
-import MenuLink from './MenuLink.vue';
-import siteConfig from '#/site.config';
+// import MenuLink from './MenuLink.vue';
+// import siteConfig from '#/site.config';
 defineProps({
   lang: String,
 });
-
-
 </script>
 
 <template>
   <div class="xsmart-doc-menu">
     <div class="xsmart-doc-menu-nav__group">
-      <div class="xsmart-doc-menu-nav__title">
-        </div>
-        <div class="xsmart-doc-menu-nav__item">
-        </div>
-      </div>
+      <div class="xsmart-doc-menu-nav__title"></div>
+      <div class="xsmart-doc-menu-nav__item"></div>
+    </div>
   </div>
 </template>
 

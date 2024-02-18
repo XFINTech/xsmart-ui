@@ -9,16 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.3.8",
-    "vue-router": "^4.0.0"
-
-  },
-  "devDependencies": {
-    "xsmart-ui": "workspace:xsmart-ui",
     "@vitejs/plugin-vue": "^4.5.0",
+    "highlight.js": "^11.9.0",
     "less": "^4.2.0",
     "markdown-it": "^14.0.0",
     "unplugin-vue-markdown": "^0.26.0",
-    "vite": "^5.0.0"
+    "vite": "^5.0.0",
+    "vue": "^3.3.8",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "xsmart-ui": "workspace:xsmart-ui"
   }
 }

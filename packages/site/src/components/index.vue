@@ -6,10 +6,13 @@ import Menu from './Menu.vue';
 <template>
   <div class="xsmart-doc">
     <Header />
+
     <div class="xsmart-doc-container">
       <Menu />
       <div class="xsmart-doc-content">
-        <slot />
+        <div class="xsmart-doc-content__inner">
+          <slot />
+        </div>
       </div>
     </div>
   </div>
@@ -24,6 +27,10 @@ import Menu from './Menu.vue';
   margin: 0 auto;
 }
 .xsmart-doc-content {
-  padding: 20px 20px 20px calc(var(--xsmart-doc-menu-width) + 40px);
+  padding-left: calc(var(--xsmart-doc-menu-width) + 40px);
+}
+.xsmart-doc-content__inner {
+  background-color: var(--xsmart-doc-white);
+  padding: 0 20px 20px;
 }
 </style>
