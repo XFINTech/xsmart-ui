@@ -1,123 +1,91 @@
-<div class="van-doc-card">
-  <div class="van-doc-intro">
-    <img class="van-doc-intro__logo" style="width: 120px; height: 120px;" src="https://fastly.jsdelivr.net/npm/@vant/assets/logo.png">
-    <h2 style="margin: 0; font-size: 36px; line-height: 60px;">Vant</h2>
-    <p>A lightweight, customizable Vue UI library for mobile web apps.</p>
-  </div>
-</div>
+# ⚡️ 快速上手
 
-### Features
+### 通过 npm 安装
 
-- 🚀 1KB Component average size (min+gzip)
-- 🚀 80+ High quality components
-- 🚀 Zero third-party dependencies
-- 💪 90%+ Unit test coverage
-- 💪 Written in TypeScript
-- 📖 Extensive documentation and demos
-- 📖 Provide Sketch and Axure design resources
-- 🍭 Support Vue 2 & Vue 3
-- 🍭 Support Nuxt 2 & Nuxt 3, provide [Vant Module](https://github.com/vant-ui/vant-nuxt) for Nuxt
-- 🍭 Support Tree Shaking
-- 🍭 Support Custom Theme
-- 🍭 Support Accessibility (still improving)
-- 🍭 Support Dark Mode
-- 🍭 Support SSR
-- 🌍 Support i18n, built-in 30+ languages
-
-### Scaffold
-
-It is recommended to use [Rsbuild](https://github.com/web-infra-dev/rsbuild) to create a scaffold project.
-
-Rsbuild is a build tool based on Rspack, developed by the author of Vant, with first-class build speed and development experience, providing first-priority support for Vant.
-
-You can create a Rsbuild project with the following command:
+在现有项目中使用，可以通过`npm`或`yarn`安装
 
 ```bash
-npm create rsbuild@latest
+# 通过 npm 安装
+npm i react-vant
+
+# 通过 yarn 安装
+yarn add react-vant
 ```
 
-Please visit the [Rsbuild repository](https://github.com/web-infra-dev/rsbuild) for more information.
+> 当前为rc版本，API 可能出现 break change，推荐使用 `lockfile` 锁定版本
 
-### Quickstart
+### 引入
 
-See in [Quickstart](#/en-US/quickstart).
+直接引入组件即可，react-vant 会自动为你加载 css 样式文件：
 
-### Browser Support
+```js
+import { Button } from 'react-vant';
+```
 
-Vant 2 supports modern browsers and Android >= 4.0、iOS >= 8.0.
+### 模版
 
-Vant 3/4 supports modern browsers and Chrome >= 51、iOS >= 10.0 (same as Vue 3).
+#### 在 create-react-app 中使用
 
-### Maintenance Status
+参考[react-vant-cra](https://github.com/3lang3/react-vant-template/tree/main/next/cra)
 
-The current maintenance status of each version of Vant is as follows:
+#### 在 umijs 使用
 
-| Name | Framework | Release | Latest Version | Status |
-| --- | --- | --- | --- | --- |
-| Vant 4 | Vue 3 | `2022.12` | ![](https://img.shields.io/npm/v/vant/latest?style=flat-square) | Under active development |
-| Vant 3 | Vue 3 | `2020.12` | ![](https://img.shields.io/npm/v/vant/latest-v3?style=flat-square) | Bugfix only |
-| Vant 2 | Vue 2 | `2019.06` | ![](https://img.shields.io/npm/v/vant/latest-v2?style=flat-square) | Bugfix only |
-| Vant 1 | Vue 2 | `2018.03` | ![](https://img.shields.io/npm/v/vant/latest-v1?style=flat-square) | End of life |
+参考[react-vant-umi](https://github.com/3lang3/react-vant-template/tree/main/next/umijs)
 
-## Links
+#### 在 nextjs 使用
 
-### Official Ecosystem
+参考[react-vant-nextjs](https://github.com/3lang3/react-vant-template/tree/main/next/nextjs)
 
-| Project | Description |
-| --- | --- |
-| [vant-weapp](https://github.com/vant-ui/vant-weapp) | WeChat MiniProgram UI |
-| [vant-demo](https://github.com/vant-ui/vant-demo) | Collection of Vant demos |
-| [vant-cli](https://github.com/vant-ui/vant/tree/main/packages/vant-cli) | Scaffold for UI library |
-| [vant-icons](https://github.com/vant-ui/vant/tree/main/packages/vant-icons) | Vant icons |
-| [vant-touch-emulator](https://github.com/vant-ui/vant/tree/main/packages/vant-touch-emulator) | Using vant in desktop browsers |
-| [vant-nuxt](https://github.com/vant-ui/vant-nuxt) | Vant module for Nuxt |
+#### 在 remix 使用
 
-### Community Ecosystem
+参考[react-vant-remix](https://github.com/3lang3/react-vant-template/tree/main/next/remix)
 
-| Project | Description |
-| --- | --- |
-| [3lang3/react-vant](https://github.com/3lang3/react-vant) | React mobile UI Components based on Vant |
-| [vant-aliapp](https://github.com/ant-move/Vant-Aliapp) | Alipay MiniProgram UI |
-| [taroify](https://gitee.com/mallfoundry/taroify) | Vant Taro |
-| [vant-theme](https://github.com/Aisen60/vant-theme) | Online theme preview built on Vant UI |
-| [@antmjs/vantui](https://github.com/antmjs/vantui) | Mobile UI Components based on Vant, supporting Taro and React |
-| [vant-playground](https://github.com/LadyChatterleyLover/vant-playground) | Vant Playground |
-| [sfc-playground-vant](https://github.com/zhixiaoqiang/sfc-playground-vant) | Vant Playground |
-| [vue3-h5-template](https://github.com/yulimchen/vue3-h5-template) | Mobile project template based on Vant |
-| [vue3-vant-mobile](https://github.com/CharleeWa/vue3-vant-mobile) | Mobile project template based on Vant |
+#### 在 astro 使用
 
-### Other Links
+参考[react-vant-astro](https://github.com/3lang3/react-vant-template/tree/main/next/astro)
 
-- [Feedback](https://github.com/vant-ui/vant/issues)
-- [Changelog](#/en-US/changelog)
-- [Discussions](https://github.com/vant-ui/vant/discussions)
 
-## Contribution
+#### vite 集成
 
-### Core Team
+参考[react-vant-vite](https://github.com/3lang3/react-vant-template/tree/main/next/vite)
 
-Core contributors of Vant and Vant Weapp:
+### 手动的按需加载(不推荐)
 
-| [![chenjiahan](https://avatars.githubusercontent.com/u/7237365?s=80&v=4)](https://github.com/chenjiahan/) | [![cookfront](https://avatars.githubusercontent.com/u/4829465?s=80&v=4)](https://github.com/cookfront/) | [![w91](https://avatars.githubusercontent.com/u/2599455?s=80&v=4)](https://github.com/w91/) | [![pangxie1991](https://avatars.githubusercontent.com/u/5961240?s=80&v=4)](https://github.com/pangxie1991/) | [![rex-zsd](https://avatars.githubusercontent.com/u/8767877?s=80&v=4)](https://github.com/rex-zsd/) | [![nemo-shen](https://avatars.githubusercontent.com/u/13480805?s=80&v=4)](https://github.com/nemo-shen/) |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| [chenjiahan](https://github.com/chenjiahan/) | [cookfront](https://github.com/cookfront/) | [wangnaiyi](https://github.com/w91/) | [pangxie](https://github.com/pangxie1991/) | [rex-zsd](https://github.com/rex-zsd/) | [nemo-shen](https://github.com/nemo-shen/) |
+如果你的环境不支持 Tree Shaking，那么你可以手动引入部分组件：
 
-| [![Lindysen](https://avatars.githubusercontent.com/u/33708359?s=80&v=4)](https://github.com/Lindysen/) | [![JakeLaoyu](https://avatars.githubusercontent.com/u/16181940?s=80&v=4)](https://github.com/JakeLaoyu/) | [![landluck](https://avatars.githubusercontent.com/u/27060081?s=80&v=4)](https://github.com/landluck/) | [![wjw-gavin](https://avatars.githubusercontent.com/u/19986739?s=80&v=4)](https://github.com/wjw-gavin/) | [![inottn](https://avatars.githubusercontent.com/u/18509404?s=80&v=4)](https://github.com/inottn/) | [![zhousg](https://avatars.githubusercontent.com/u/15833290?s=80&v=4)](https://github.com/zhousg/) |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| [Lindysen](https://github.com/Lindysen/) | [JakeLaoyu](https://github.com/JakeLaoyu/) | [landluck](https://github.com/landluck/) | [wjw-gavin](https://github.com/wjw-gavin/) | [inottn](https://github.com/inottn/) | [zhousg](https://github.com/zhousg/) |
+```js
+import Button from 'react-vant/es/button';
+```
 
-### All Contributors
+需要注意的是，在手动按需加载时，你还需要在入口文件中引入 global 文件来加载 react-vant 的全局性逻辑和样式：
 
-Thanks to the following friends for their contributions to Vant:
+```js
+import 'react-vant/es/styles';
+```
 
-<a href="https://github.com/vant-ui/vant/graphs/contributors" target="_black">
-  <img src="https://opencollective.com/vant/contributors.svg?width=890&button=false" alt="contributors" style="width: 100%; margin: 16px 0">
-</a>
+当然，如果你觉得上面的写法过于繁琐，你也可以使用 [babel-plugin-import](https://github.com/ant-design/babel-plugin-import) 来进行自动语法转换。可以在 .babelrc 中这样配置：
 
-### Contribution Guide
+> 即便你使用了 babel-plugin-import，你依然需要在**入口文件**中手动引入 `react-vant/es/styles` 文件。
 
-Please make sure to read the [Contributing Guide](https://github.com/vant-ui/vant/blob/main/.github/CONTRIBUTING.md) before making a pull request.
+```bash
+# 安装插件
+npm i babel-plugin-import -D
+```
 
-### LICENSE
+```js
+// 在.babelrc 中添加配置
+module.exports = {
+  plugins: [
+    [
+      'import',
+      {
+        libraryName: 'react-vant',
+        libraryDirectory: 'es',
+        style: false,
+      },
+    ],
+  ],
+};
+```
 
-[MIT](https://zh.wikipedia.org/wiki/MIT%E8%A8%B1%E5%8F%AF%E8%AD%89).
+不难发现，手动按需加载是非常难以维护的，特别是在你的项目中存在多个入口文件时。所以除非你对打包构建的过程和 react-vant 本身都有足够的了解，否则我们非常不推荐这样手动处理。

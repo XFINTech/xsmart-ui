@@ -13,6 +13,19 @@ code {
   background-color: #f8f8f8;
   border-radius: 20px;
 }
+p > code {
+  display: inline;
+  margin: 0 2px;
+  padding: 2px 5px;
+}
+
+blockquote {
+  margin: 20px 0;
+  padding: 16px;
+  background-color: var(--xsmart-doc-quote-color);
+  border-radius: 0.5em;
+  border-left: 5px solid var(--xsmart-doc-quote-color);
+}
 
 pre {
   margin: 20px 0 0;
@@ -79,4 +92,10 @@ pre {
 
 .hljs-emphasis {
   font-style: italic;
+}
+
+.xsmart-doc-markdown-body {
+  p {
+    line-height: 26px;
+  }
 }
