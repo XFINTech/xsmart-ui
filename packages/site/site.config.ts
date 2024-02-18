@@ -20,9 +20,9 @@ export default {
             title: 'Introduction',
           },
           {
-            path:'/quickstart/',
+            path: '/quickstart/',
             title: 'Quickstart',
-          }
+          },
         ],
       },
     ],
