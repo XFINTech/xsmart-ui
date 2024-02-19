@@ -23,13 +23,6 @@ const nav = ref(siteConfig.nav);
               v-html="item.text"
             />
           </template>
-          <!-- <router-link to="/" class="xsmart-doc__link">首页</router-link>
-          <router-link to="/guide/home/" class="xsmart-doc__link"
-            >文档</router-link
-          >
-          <router-link to="/components/button/" class="xsmart-doc__link">
-            组件
-          </router-link> -->
         </div>
       </div>
       <div class="xsmart-doc-header-action">
