@@ -67,10 +67,12 @@ watch(
 }
 
 .xsmart-doc-menu-nav__item {
-  padding: 5px 0;
+  padding: 5px 0px;
   & .xsmart-doc__link {
     display: block;
-    padding: 5px 10px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
     cursor: pointer;
     border-radius: 5px;
     &:hover {
