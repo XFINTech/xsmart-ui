@@ -6,29 +6,30 @@ export default {
     ['zh-CN', '🇨🇳 简体中文'],
   ],
   nav: [
-    { text: 'Guide', link: '/guide/' },
-    { text: 'Components', link: '/components/' },
+    { text: 'Guide', link: '/guide/home/' },
+    { text: 'Components', link: '/components/button/' },
     { text: 'GitHub', link: 'https://github.com/uSMARTFE/xsmart-ui' },
   ],
   menus: {
     '/guide/': [
       {
-        title: 'Guide',
+        title: '开发指南',
+        base: '/guide/',
         children: [
           {
             path: '/home/',
-            title: 'Introduction',
+            title: '介绍',
           },
           {
             path: '/quickstart/',
-            title: 'Quickstart',
+            title: '快速上手',
           },
         ],
       },
     ],
     '/components/': [
       {
-        title: 'Basic Components',
+        title: '基础组件',
         children: [
           {
             path: '/components/button/',

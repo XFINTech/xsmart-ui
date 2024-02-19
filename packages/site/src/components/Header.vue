@@ -10,8 +10,10 @@
         </div>
         <div class="xsmart-doc-header-nav">
           <router-link to="/" class="xsmart-doc__link">首页</router-link>
-          <router-link to="/guide" class="xsmart-doc__link">文档</router-link>
-          <router-link to="/components/button" class="xsmart-doc__link">
+          <router-link to="/guide/home/" class="xsmart-doc__link"
+            >文档</router-link
+          >
+          <router-link to="/components/button/" class="xsmart-doc__link">
             组件
           </router-link>
         </div>
@@ -67,6 +69,7 @@
   backdrop-filter: blur(10px);
   background-color: rgba(233, 233, 233, 0.5);
   z-index: var(--xsmart-doc-header-zIndex);
+  font-size: var(--xsmart-doc-fontsize-medium);
 }
 
 .xsmart-doc-header-logo {
