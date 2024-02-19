@@ -4,6 +4,10 @@ export default {
   locales: [
     ['en-US', '🇺🇸 English'],
     ['zh-CN', '🇨🇳 简体中文'],
+    ['zh-HK', '🇭🇰 繁體中文'],
+    ['ja-JP', '🇯🇵 日本語'],
+    ['ms-MY', '🇲🇾 Bahasa Malaysia'],
+    ['th-TH', '🇹🇭 ภาษาไทย'],
   ],
   nav: [
     { text: 'Guide', link: '/guide/home/' },

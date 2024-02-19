@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+import siteConfig from '#/site.config';
+import { ref } from 'vue';
+const locales = ref(siteConfig.locales);
+</script>
 
 <template>
   <div class="xsmart-doc-header">
@@ -37,8 +41,11 @@
             </svg>
             <div class="doc-dropdown__content">
               <div class="doc-dropdown__content-body">
-                <div class="sublink">🇨🇳 中文</div>
-                <div class="sublink">🇺🇸 English</div>
+                <div class="sublink" v-for="locale in locales" :key="locale[0]">
+                  {{ locale[1] }}
+                </div>
+                <!-- <div class="sublink">🇨🇳 中文</div> -->
+                <!-- <div class="sublink">🇺🇸 English</div> -->
               </div>
             </div>
           </div>
@@ -181,6 +188,7 @@
   .sublink {
     cursor: pointer;
     padding: 5px 0;
+    white-space: nowrap;
     &:hover {
       color: var(--xsmart-doc-link-color);
     }
