@@ -133,7 +133,7 @@
     top: 100%;
     right: 0;
     border-radius: 10px;
-    background-color: rgba(233, 233, 233, 0.3);
+    background-color: rgba(233, 233, 233, 0.8);
     backdrop-filter: blur(10px);
     transform: translateY(0px);
     transition: all 0.3s;
