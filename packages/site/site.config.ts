@@ -10,9 +10,9 @@ export default {
     ['th-TH', '🇹🇭 ภาษาไทย'],
   ],
   nav: [
-    { text: 'Guide', link: '/guide/home/' },
-    { text: 'Components', link: '/components/button/' },
-    { text: 'GitHub', link: 'https://github.com/uSMARTFE/xsmart-ui' },
+    { text: '首页', link: '/' },
+    { text: '文档', link: '/guide/home/' },
+    { text: '组件', link: '/components/button/' },
   ],
   menus: {
     '/guide/': [
@@ -37,7 +37,7 @@ export default {
         children: [
           {
             path: '/components/button/',
-            title: 'Button',
+            title: 'Button 按钮',
           },
         ],
       },

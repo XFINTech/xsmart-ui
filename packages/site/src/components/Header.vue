@@ -2,6 +2,7 @@
 import siteConfig from '#/site.config';
 import { ref } from 'vue';
 const locales = ref(siteConfig.locales);
+const nav = ref(siteConfig.nav);
 </script>
 
 <template>
@@ -13,13 +14,22 @@ const locales = ref(siteConfig.locales);
           <div class="xsmart-doc-header-title">XSmart UI</div>
         </div>
         <div class="xsmart-doc-header-nav">
-          <router-link to="/" class="xsmart-doc__link">首页</router-link>
+          <template v-for="item in nav">
+            <router-link
+              v-if="item.link"
+              :key="item.link"
+              class="xsmart-doc__link"
+              :to="item.link"
+              v-html="item.text"
+            />
+          </template>
+          <!-- <router-link to="/" class="xsmart-doc__link">首页</router-link>
           <router-link to="/guide/home/" class="xsmart-doc__link"
             >文档</router-link
           >
           <router-link to="/components/button/" class="xsmart-doc__link">
             组件
-          </router-link>
+          </router-link> -->
         </div>
       </div>
       <div class="xsmart-doc-header-action">
