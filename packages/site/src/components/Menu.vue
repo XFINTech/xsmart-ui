@@ -70,8 +70,8 @@ watch(
   padding: 5px 0px;
   & .xsmart-doc__link {
     display: block;
-    height: 36px;
-    line-height: 36px;
+    height: 32px;
+    line-height: 32px;
     padding: 0 10px;
     cursor: pointer;
     border-radius: 5px;
